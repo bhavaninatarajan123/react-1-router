@@ -1,0 +1,257 @@
+/*mobile*/
+@media(min-width:320px){
+   .head-bar{
+display: block;
+    }
+    .banner-row{
+        display:flex;
+    flex-wrap: wrap; }
+    .banner-col{
+        width: 100%;
+       }
+       .banner-col img{
+        height: 200px;
+        width: 200px;
+       }
+    .port-col{
+            width:100%;
+        }
+    .card-col{
+             width:100%;
+            }
+
+     .card-row {
+                 width:100%;
+                 display:flex;
+                 flex-wrap: wrap;
+                        } 
+    .form-button {
+                 padding-left:20%; 
+                  }
+
+    .footer-col{
+             width:100%;}
+    
+
+    .footer-row{
+                 display:flex;
+                 flex-wrap: wrap;
+                }
+                .head-bar:hover .head-list-1{ 
+                        display: block;
+                }
+                .head-list-1{
+                    display: none;
+                }
+                .head-list  a{
+                    text-decoration: none;
+                    color: #000;
+                    padding-right: 30px;
+                    font-size: 20px;
+                    display: none;
+            }   
+            .head-bar{
+                position: relative;
+            } 
+            .head-list-1{
+                position: absolute;
+                top:150%;
+                right:10%;
+                list-style-type: none;
+                background-color: #fff;
+            }
+            .dropdown-menu{
+                position:relative;
+               }
+               .dropdown{
+                position:absolute;
+                top:80%; 
+                 right: 105%;
+                width:100%;
+                list-style-type: none;
+               }
+               .deepdropdown{
+                list-style-type: none;
+               }
+                
+               
+                     
+                    
+}
+/*ipad*/
+@media(min-width:660px){
+
+    .head-bar{
+        display: block;
+            }
+            .banner-row{
+                display:flex;
+            flex-wrap: wrap; }
+            .banner-col{
+                width: 50%;
+               }
+     .port-col{
+             width:50%;
+            }
+    .card-col{
+             width:50%;
+            }
+    .card-row {
+             width:100%;
+             display:flex;
+             flex-wrap: wrap;
+             } 
+    .form-button {
+            padding-left:35%; 
+    
+                }
+    .footer-col{
+             width:50%;
+            }
+    
+    .footer-row{
+              display:flex;
+              flex-wrap: wrap;
+                }
+                .banner-col img{
+                    height: 350px;
+                    width: 550px;
+                   }
+                   .head-list  a{
+                    text-decoration: none;
+                    color: #000;
+                    padding-right: 30px;
+                    font-size: 20px;
+
+
+                     }
+                     .deepdropdown-menu{
+                        position:relative;
+                         }
+         
+         .deepdropdown{
+                 color:#000;
+                   position:absolute;
+                   right:110%;
+                   top:65px;
+                   display:block;
+                 width:110%;
+                   background-color:#ffff;
+                 border-radius:20px;
+                   display:none;
+                   } 
+                   .head-list-1{
+                    display: none;
+                }
+                .head-list  a{
+                    text-decoration: none;
+                    color: #000;
+                    padding-right: 30px;
+                    font-size: 20px;
+                    display: none;
+            }   
+            .head-bar{
+                position: relative;
+            } 
+            .head-list-1{
+                position: absolute;
+                top:150%;
+                right:10%;
+                list-style-type: none;
+                background-color: #fff;
+            }
+            .dropdown-menu{
+                position:relative;
+               }
+               .dropdown{
+                position:absolute;
+                top:80%; 
+                 right: 105%;
+                width:100%;
+                list-style-type: none;
+               }
+               .deepdropdown{
+                list-style-type: none;
+               }
+                
+               
+                         
+                     
+}
+/*laptop*/
+@media(min-width:1000px){
+    
+    .head-bar{
+        display: none;
+            }
+            .banner-row{
+                display:flex;
+             }
+             .banner-col{
+                width: 50%;
+               }
+    .port-col{
+            width:33.33%;
+             }
+    .card-col{
+             width:25%;
+            }
+     .card-row {
+                width:100%;
+                 display:flex;
+               } 
+    .form-button {
+                padding-left:40%;
+            } 
+    .footer-col{
+                 width:25%;}
+
+                    
+    .footer-row{
+                 display:flex;
+
+}
+.banner-col img{
+    height: 350px;
+    width: 550px;
+   }
+   .head-list  a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 30px;
+    font-size: 20px;
+    display: block;
+     } 
+     .dropdown-menu{
+        position:relative;
+       }	
+
+.dropdown{
+   color:#000;
+   display:block;
+    position:absolute;
+    top:45px;
+    background-color:#ffff;
+    width:13%;
+    border-radius:10px;
+    display:none;
+     }	     
+     .deepdropdown-menu{
+        position:relative;
+         }
+
+.deepdropdown{
+ color:#000;
+   position:absolute;
+   right:100%;
+   top:65px;
+   display:block;
+ width:110%;
+   background-color:#ffff;
+ border-radius:20px;
+   display:none;
+   }   
+    
+}
+
+
